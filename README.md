@@ -3,7 +3,7 @@ RemoteGazeUX
 </h1>
 
 <div align="center">
-    <img src="assets/readme/banner.png" alt="Banner" style="-webkit-filter: blur(2px); filter: blur(2px); max-width:100%; height:auto;" />
+    <img src="assets/readme/banner.png" alt="Banner" style="max-width:100%; height:auto;" />
 </div>
 
 <h2 align="center">
