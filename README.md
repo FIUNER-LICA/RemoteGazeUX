@@ -2,6 +2,10 @@
 RemoteGazeUX
 </h1>
 
+<div align="center">
+    <img src="assets/readme/banner.png" alt="Banner" style="-webkit-filter: blur(2px); filter: blur(2px); max-width:100%; height:auto;" />
+</div>
+
 <h2 align="center">
 An open-source platform for remote usability testing through eye and mouse tracking on web prototypes.
 </h2>
@@ -23,10 +27,17 @@ Designed to streamline remote user studies, reduce logistical overhead, and enab
 
 3. **Subjects Page (/sujetos):** View the subjects stored in the database. You can access each subject's details and gaze tracking data.
 
-4. **Results Page for a subject (/resultados?id={sujeto}):** View the gaze heatmap for a subject and download their data as CSV.
+4. **Studies Page (/studies):** View the studies stored in the database. You can be redirected to the tab in subjects page corresponding to the selected study.  
+
+5. **Results Page for a subject (/resultados?id={sujeto}):** View the gaze heatmap for a subject and download their data as CSV.
+
 
 
 <div align="center">
+    <h2>Data Access and Authentication</h2>
+</div>
+
+The pages that display and manage participant data (for example /sujetos and /resultados) are protected by authentication — only registered users can access them. On first run the tool will prompt to create at least one user (administrator). User accounts and credentials can be managed from the configuration GUI (see the "Configuration" section). Credentials are stored in the project's SQLite database; ensure the database file is protected and apply additional security measures before using the tool in uncontrolled or production environments.
     <h2> Installation and Usage </h2>
 </div>
 
@@ -121,7 +132,7 @@ Thanks for helping improve the project!
     <h2>Roadmap</h2>
 </div>
 
-- [ ] Add user validation for the routes of admin
+- [x] Add user validation for the routes of admin
 
 <div align="center">
     <h2>Contact</h2>
