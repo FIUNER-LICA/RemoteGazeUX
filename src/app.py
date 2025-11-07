@@ -450,4 +450,9 @@ if __name__ == "__main__":
 
     port = config_manager.get_port(default=5001)
 
+    print("\n" + "=" * 60)
+    print("✨ RemoteGazeUX is running!")
+    print(f"🔗 URL: https://localhost:{port}")
+    print("=" * 60 + "\n")
+
     app.run(debug=True, ssl_context=("cert.pem", "key.pem"), port=port)

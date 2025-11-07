@@ -3,7 +3,7 @@ RemoteGazeUX
 </h1>
 
 <div align="center">
-    <img src="assets/readme/banner.png" alt="Banner" style="max-width:100%; height:auto;" />
+    <img src="docs/assets/readme/banner.png" alt="Banner" style="max-width:100%; height:auto;" />
 </div>
 
 <h2 align="center">
@@ -94,11 +94,11 @@ When a URL or image path is modified, the system checks for its existence in the
 
 Can be modified to register other variables considered relevant.
 
-![Data Entry](assets/readme/data_entry.png)
+![Data Entry](docs/assets/readme/data_entry.png)
 
 ### 2. Calibration and instructions
 
-![Calibration and instructions](assets/readme/calibration.png)
+![Calibration and instructions](docs/assets/readme/calibration.png)
 
 *The calibration instructions image is provided by the module; consider creating a translated version if needed.*
 
@@ -109,7 +109,7 @@ Can be modified to register other variables considered relevant.
 
 After conducting your remote user studies you can access the data at (`/sujetos`). It will show you different tabs for the different studies that you have registered.
 
-![Accessing data](assets/readme/accessing_data.png)
+![Accessing data](docs/assets/readme/accessing_data.png)
 
 There you can navigate through your studies, in each studies through your users and access their individual data and pre visualize or download some animations or heatmaps. Also you can download all the data for a given study with the button in the left bottom corner.
 
