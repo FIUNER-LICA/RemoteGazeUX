@@ -87,7 +87,6 @@ RemoteGazeUX is more than software — it's a community of researchers and desig
 - ⭐ [Star us on GitHub](https://github.com/justogm/RemoteGazeUX)
 - 🐛 [Report issues](https://github.com/justogm/RemoteGazeUX/issues)
 - 💡 [Suggest features](https://github.com/justogm/RemoteGazeUX/issues)
-- 🤝 [Contribute code](development/contributing.md)
 
 ## 📖 Citation
 

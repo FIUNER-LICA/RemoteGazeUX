@@ -62,30 +62,7 @@ nav:
     - Participant Registration: getting_started/features/home.md
     - Eye Tracking Process: getting_started/features/gaze_tracking.md
     - Managing Participants: getting_started/features/subjects.md
-    - Results & Analytics: getting_started/features/results.md
-  - User Guide:
-    - Running Your First Study: user_guide/first_study.md
-    - Best Practices: user_guide/best_practices.md
-    - Data Analysis Tips: user_guide/analysis.md
-    - Remote Testing Guide: user_guide/remote_testing.md
-  - API Reference:
-    - Web Routes: api_reference/web_routes.md
-    - REST API: api_reference/rest_api.md
-    - Database Models: api_reference/models.md
-    - Configuration Schema: api_reference/configuration.md
-  - Development:
-    - Contributing: development/contributing.md
-    - Architecture: development/architecture.md
-    - Testing: development/testing.md
-    - Extending RemoteGazeUX: development/extending.md
-  - Deployment:
-    - Production Setup: deployment/production.md
-    - Docker Deployment: deployment/docker.md
-    - Security Checklist: deployment/security.md
-  - Help:
-    - Troubleshooting: troubleshooting.md
-    - FAQ: faq.md
-    - Support: support.md
+
 
 markdown_extensions:
   - admonition

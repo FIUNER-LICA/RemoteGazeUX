@@ -17,3 +17,5 @@ key.pem
 *.db
 
 .vscode/
+
+docs/site/

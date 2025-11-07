@@ -132,8 +132,6 @@ chmod +x run.py
 
 ### Need Help?
 
-- 📖 Check the [troubleshooting guide](../troubleshooting.md) 
-TODO: fix troubleshooting link
 - 🐛 [Open an issue](https://github.com/justogm/RemoteGazeUX/issues)
 - 💬 Ask the community
 

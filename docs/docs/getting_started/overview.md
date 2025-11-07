@@ -252,4 +252,3 @@ Includes:
 - [🏠 Participant Registration](features/home.md)
 - [👁️ Eye Tracking Process](features/gaze_tracking.md)
 - [👥 Managing Participants](features/subjects.md)
-- [📊 Analyzing Results](features/results.md)

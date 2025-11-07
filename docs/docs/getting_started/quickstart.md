@@ -82,7 +82,8 @@ Navigate to: `http://localhost:5000`
 
 You'll see a clean registration form:
 
-![Entry Form](../../assets/docs/quickstart/entry-form.png)
+![Entry Form](../assets/docs/quickstart/entry-form.png)
+
 
 Fill in test data:
 
@@ -224,7 +225,6 @@ Now that you know the basics, level up:
     - Task performance metrics
     - Attention mapping
     
-    [Results & Analytics →](../user_guide/features/results.md)
 
 === "Advanced Features"
     
@@ -235,8 +235,7 @@ Now that you know the basics, level up:
     - API integration
     - Automated reporting
     
-    TODO: hacer pagina de advanced features
-    [Advanced features →](../user_guide/overview.md)
+    Documentation soon...
 
 ## 💡 Tips for Success
 
