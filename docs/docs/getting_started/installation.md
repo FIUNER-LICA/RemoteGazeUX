@@ -57,37 +57,46 @@ That's it! No expensive hardware, no special equipment.
 
 ## 🎯 First Run Setup
 
-TODO: reformat with the actual prompts
-
 When you run `python run.py` for the first time, you'll see an interactive setup wizard:
 
 ### Step 1: Create Admin Account
 
 ```
-🔐 Create your first administrator account
-Username: your_username
-Password: ********
+🔐 Current users in database: 0
+Do you want to create a new user? (y/n): y
+
+============================================================
+👥 CREATE NEW USER
+============================================================
+
+Username: admin
+Password: 
+Confirm password: 
+
+✅ User 'admin' created successfully!
+============================================================
 ```
 
 !!! warning "Keep these credentials safe!"
     You'll need them to access participant data and results.
 
-### Step 2: Configure Your First Study
+### Step 2: Configure Your Study
+
+When the application detects that you set in the configuration an url that wasn't present in the database it will allow you to set a name and a description.
 
 ```
-📋 Let's set up your first study!
-Study name: My First Eye-Tracking Study
-Prototype URL: https://www.figma.com/proto/...
+============================================================
+📊 New configuration detected!
+============================================================
+Prototype URL: https://google.com
+
+Enter a name for this study (or press Enter for auto-name): Google Sudy
+Enter a description (optional): Study of Google UX
+✅ Created new study: 'Google Sudy' (ID: 1)
+============================================================
 ```
 
 ### Step 3: Launch! 🚀
-
-```
-✨ Setup complete! Starting RemoteGazeUX...
-
-🌐 Application running at: http://localhost:5000
-📊 Admin panel: http://localhost:5000/sujetos
-```
 
 ---
 

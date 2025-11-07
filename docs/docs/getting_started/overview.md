@@ -1,7 +1,7 @@
 # Features Overview
 
 !!! info "Everything You Need for Professional Eye-Tracking Research"
-    RemoteGazeUX packs enterprise-level features into an easy-to-use, open-source package.
+    RemoteGazeUX packs enterprise-level features into an easy-to-use, **open-source** package.
 
 ## 🎯 Core Features
 
@@ -11,8 +11,6 @@
 
 - **WebGazer.js Integration** - Research-grade eye tracking in the browser
 - **Automatic Calibration** - Smart calibration process guides participants
-- **Real-time Tracking** - See gaze points as they're recorded
-- **High Frequency Sampling** - Up to 60 Hz data collection
 - **Cross-browser Support** - Works in Chrome, Firefox, and Edge
 
 !!! success "Proven Accuracy"
@@ -23,9 +21,6 @@
 **Complete interaction picture.** Track every click, move, and scroll.
 
 - **Movement Tracking** - Full mouse path recording
-- **Click Detection** - Capture all clicks with timestamps
-- **Scroll Monitoring** - Track scroll behavior
-- **Element Identification** - Know exactly what was clicked
 - **Synchronized Data** - Mouse and gaze data perfectly aligned
 
 ### 📊 Powerful Data Collection
@@ -33,7 +28,6 @@
 **Professional-grade data storage and export.**
 
 - **SQLite Database** - Fast, reliable, zero-configuration
-- **PostgreSQL/MySQL Support** - Scale to thousands of participants
 - **Automatic Timestamps** - Every data point time-stamped
 - **Task Segmentation** - Data organized by task
 - **CSV Export** - Analysis-ready data files
@@ -42,6 +36,17 @@
 ### 🎨 Flexible Prototype Support
 
 **Test anything that runs in a browser.**
+
+=== "Live Websites"
+    
+    **Real-World Testing**
+    
+    - Test production sites
+    - Staging environments
+    - Any URL
+    - Full interactivity
+    
+    Perfect for: Website redesigns, usability audits
 
 === "Figma Prototypes"
     
@@ -65,27 +70,7 @@
     
     Perfect for: Visual design testing, mockup validation
 
-=== "Live Websites"
-    
-    **Real-World Testing**
-    
-    - Test production sites
-    - Staging environments
-    - Any URL
-    - Full interactivity
-    
-    Perfect for: Website redesigns, usability audits
 
-=== "Custom HTML"
-    
-    **Maximum Control**
-    
-    - Upload custom HTML
-    - Include JavaScript
-    - Full customization
-    - Advanced interactions
-    
-    Perfect for: Researchers, developers
 
 ## 🌟 Advanced Features
 
@@ -94,7 +79,6 @@
 Structure your research with clear tasks:
 
 - **Multiple Tasks** - Define sequential or parallel tasks
-- **Time Limits** - Set duration for each task
 - **Task Instructions** - Clear guidance for participants
 - **Success Tracking** - Detect task completion automatically
 - **Skip Logic** - Conditional task flows
@@ -104,25 +88,26 @@ Structure your research with clear tasks:
 **Publication-ready graphics, automatically generated.**
 
 #### Heatmaps
+
 See attention patterns at a glance:
+
 - **Color-coded intensity** - Red = high attention, blue = low
-- **Customizable radius** - Adjust blur for clarity
 - **Overlay on prototype** - Direct visual feedback
 - **High resolution** - Perfect for presentations
 
 #### Gaze Plots
+
 Follow the eye's journey:
+
 - **Sequential path** - Numbered fixation points
 - **Saccade lines** - See eye movements between fixations
 - **Temporal information** - Understand viewing order
-- **Fixation duration** - Size indicates time spent
 
 #### Mouse Trails
+
 Understand interaction patterns:
+
 - **Movement paths** - Complete mouse journey
-- **Click markers** - Where and when clicks occurred
-- **Scroll indicators** - Page navigation patterns
-- **Hover detection** - Interest without commitment
 
 ### 👥 Multi-User Management
 
@@ -131,7 +116,6 @@ Understand interaction patterns:
 - **User Roles** - Admin, researcher, viewer
 - **Authentication** - Secure login system
 - **Session Management** - Track who's accessing data
-- **Activity Logs** - Audit trail of all actions
 
 ### 🔒 Privacy & Security
 
@@ -139,9 +123,6 @@ Understand interaction patterns:
 
 - **Self-Hosted** - Complete data control
 - **Encrypted Storage** - Secure database
-- **GDPR Ready** - Compliant data handling
-- **Anonymization** - Optional participant anonymization
-- **Consent Management** - Built-in consent tracking
 
 ### 🌐 Remote Testing
 
@@ -157,7 +138,7 @@ Understand interaction patterns:
 
 **Organize complex research projects.**
 
-- **Multiple Studies** - Run many studies simultaneously
+- **Multiple Studies** - Run many studies
 - **Study Comparison** - Compare results across studies
 - **Participant Filtering** - Slice data by demographics
 - **Export Templates** - Standardized data formats
@@ -169,20 +150,11 @@ Understand interaction patterns:
 
 **Ready for serious analysis.**
 
-```csv
-participant_id, task_id, timestamp, x, y, fixation_duration, element_id
-P001, T01, 1698765432.123, 450, 320, 234, button_login
-P001, T01, 1698765432.357, 455, 325, 189, button_login
-...
-```
-
 Includes:
+
 - Participant identifiers
-- Task segmentation
 - Precise timestamps (millisecond accuracy)
 - Screen coordinates
-- Fixation detection
-- Element identification
 
 ### Reproducible Methodology
 
@@ -191,7 +163,6 @@ Includes:
 - **Version Control** - Track configuration changes
 - **Standardized Calibration** - Consistent across participants
 - **Documented Procedures** - Export study protocols
-- **Random Assignment** - Built-in randomization for A/B tests
 
 ## 🚀 Performance Features
 
@@ -199,7 +170,6 @@ Includes:
 
 **Fast and efficient.**
 
-- **60 Hz Sampling** - Smooth, detailed tracking
 - **Efficient Storage** - Compressed data formats
 - **Background Processing** - No lag for participants
 - **Automatic Cleanup** - Manage storage automatically
@@ -208,57 +178,42 @@ Includes:
 
 **From small pilots to large studies.**
 
-- **Concurrent Participants** - Multiple simultaneous sessions
 - **Large Datasets** - Handle thousands of participants
-- **Database Optimization** - Indexed for fast queries
 - **Export Streaming** - Handle huge files efficiently
 
-## 🎨 Customization
-
-### Appearance
-
-- **Custom Branding** - Your logo, your colors
-- **White Labeling** - Remove RemoteGazeUX branding
-- **Custom CSS** - Complete visual control
-- **Responsive Design** - Works on all screen sizes
-
-### Functionality
-
-- **API Access** - Programmatic control
-- **Webhook Integration** - Real-time notifications
-- **Custom Forms** - Collect any demographics
-- **Plugin System** - Extend functionality
 
 ## 📱 Platform Support
 
 ### Browsers
 
-✅ **Fully Supported:**
+✅ **Fully Tested and Supported:**
 - Chrome 90+
+
+⚠️ **Partial Support:**
 - Firefox 88+
 - Edge 90+
 
-⚠️ **Partial Support:**
-- Safari (limited webcam API)
+!!! tip "What happens if something fails?"
+    When no webcam is detected by the browser it won't allow the user to conduct the study. Preventing the introduction of noise in the study.
 
 ### Operating Systems
 
 ✅ **Fully Supported:**
+
 - Windows 10/11
-- macOS 10.15+
-- Linux (Ubuntu, Fedora, Debian)
+- Linux (Ubuntu, Fedora, Debian, Arch)
 
 ### Devices
 
 ✅ **Recommended:**
+
 - Desktop computers
 - Laptops with webcams
 
-⚠️ **Limited:**
-- Tablets (calibration challenges)
-
 ❌ **Not Supported:**
 - Smartphones (screen too small)
+- Tablets
+
 
 ## 🎯 Use Cases
 
@@ -289,29 +244,6 @@ Includes:
 - **Onboarding** - Test first-time user experience
 - **Prototype Testing** - Validate before development
 - **Competitive Analysis** - Study competitor interfaces
-
-## 🔮 What's Coming
-
-Planned features for future releases:
-
-- **🎥 Screen Recording** - Video replay of sessions
-- **🎤 Think-Aloud Protocol** - Audio recording support
-- **📊 Advanced Analytics** - Built-in statistical analysis
-- **🤖 AI Insights** - Automated attention analysis
-- **📱 Mobile Support** - Eye tracking on tablets
-- **☁️ Cloud Hosting** - Managed hosting option
-- **🔗 CMS Integration** - WordPress, Webflow plugins
-- **📧 Email Reports** - Automated study summaries
-
-## 💡 Feature Highlights
-
-!!! tip "Most Loved Features (User Feedback)"
-    
-    1. **One-Click Setup** - "Just works out of the box"
-    2. **Beautiful Heatmaps** - "Client presentations are so easy now"
-    3. **No Installation** - "Participants love that there's nothing to install"
-    4. **CSV Export** - "Perfect for R and Python analysis"
-    5. **Multiple Studies** - "Manage all my research in one place"
 
 ---
 

@@ -23,12 +23,11 @@ cd RemoteGazeUX
 python run.py
 ```
 
-TODO: refactor to show the actual output.
+After being asked to modify your configuration, create admin users you should see:
 
-You should see:
 ```
 ✨ RemoteGazeUX is running!
-🌐 Visit: http://localhost:5000
+🔗 URL: https://localhost:5001
 ```
 
 !!! tip "Keep this terminal window open"
@@ -36,16 +35,25 @@ You should see:
 
 ## Step 2: Create Your Study
 
-### Option A: Use the Configuration GUI
+### Use the Configuration GUI
 
-The easiest way to configure your study:
+When running RemoteGazeUX you should see
+
+```
+Do you want to modify configurations before running the application? (y/n):
+```
+
+Inputting yes will open a GUI for setting a new prototype URL, a different port or also change the tasks.
+
+Also, you can open this GUI with:
 
 ```bash
-# In a NEW terminal window (keep the first one running)
 python src/config.py
 ```
 
 A friendly GUI window appears! 🎨
+
+TODO: hacer captura
 
 ![Configuration GUI](../assets/config_gui.png)
 
@@ -61,35 +69,6 @@ A friendly GUI window appears! 🎨
 
 Click **Save** ✅
 
-### Option B: Edit JSON Directly
-
-Prefer code? Edit `src/config/config.json`:
-
-```json
-{
-  "study_name": "My First Eye-Tracking Test",
-  "prototype_url": "https://your-figma-link.com",
-  "enable_mouse_tracking": true,
-  "enable_gaze_tracking": true
-}
-```
-
-And `src/config/tasks.json`:
-
-```json
-[
-  {
-    "id": 1,
-    "description": "Find the login button",
-    "duration": 30
-  },
-  {
-    "id": 2,
-    "description": "Locate the search feature",
-    "duration": 30
-  }
-]
-```
 
 ## Step 3: Test as a Participant
 
@@ -103,14 +82,15 @@ Navigate to: `http://localhost:5000`
 
 You'll see a clean registration form:
 
-![Entry Form](../assets/entry_form.png)
+![Entry Form](../../assets/docs/quickstart/entry-form.png)
 
 Fill in test data:
-- **Name**: Test User
-- **Age**: 25
-- **Other fields**: Fill as needed
 
-Click **Begin Study** 🎯
+- **Name**: Test
+- **Surname**: User
+- **Age**: 25
+
+Click **Submit** 🎯
 
 ### 3.3 Calibration
 
@@ -133,9 +113,7 @@ You'll see a series of dots on screen:
 
 After calibration, you'll see your prototype with task instructions:
 
-- **Red tracker dot** shows where you're looking 👁️
 - **Task instructions** appear at the top
-- **Timer** counts down for each task
 
 **Just interact naturally!** Look around, click things, explore the interface.
 
@@ -200,9 +178,11 @@ On the results page, click **"Download CSV"**
 
 You'll get a file with columns:
 ```csv
-timestamp, x, y, type, task_id, element_id
-1698765432, 450, 320, gaze, 1, button_login
-1698765433, 455, 325, click, 1, button_login
+date,x_mouse,y_mouse,x_gaze,y_gaze
+2025-10-16 11:32:36,0.0,0.0,1399.614608374622,485.90008997831643
+2025-10-16 11:32:36,0.0,0.0,1173.1436953906164,400.8048705042029
+2025-10-16 11:32:36,0.0,0.0,1097.997644500679,373.6929253870312
+2025-10-16 11:32:36,0.0,0.0,1908.0,0.0
 ...
 ```
 
@@ -210,11 +190,7 @@ Perfect for analysis in Python, R, Excel, or your favorite tool!
 
 ### Export Entire Study
 
-From the studies page, click **"Download All Data"** to get:
-
-- All participants' data
-- Combined CSV
-- Summary statistics
+From the studies page, click **"Download All Data"** to get all participants data.
 
 ## 🎓 You Did It!
 
@@ -229,24 +205,13 @@ In just 10 minutes, you've:
 
 Now that you know the basics, level up:
 
-=== "Share with Real Participants"
-    
-    **Invite Remote Participants:**
-    
-    1. Find your local IP: `ipconfig` (Windows) or `ifconfig` (Mac/Linux)
-    2. Share the link: `http://YOUR_IP:5000`
-    3. Participants click and participate — no installation needed!
-    
-    [Learn about remote testing →](../user_guide/overview.md)
 
 === "Customize Your Study"
     
     **Make it Your Own:**
     
-    - Design custom entry forms
     - Add more tasks
     - Use your own prototypes
-    - Adjust timing and settings
     
     [Configuration guide →](configuration.md)
 
@@ -270,6 +235,7 @@ Now that you know the basics, level up:
     - API integration
     - Automated reporting
     
+    TODO: hacer pagina de advanced features
     [Advanced features →](../user_guide/overview.md)
 
 ## 💡 Tips for Success
@@ -277,14 +243,15 @@ Now that you know the basics, level up:
 !!! success "Best Practices"
     
     **For Accurate Data:**
+
     - Ensure good lighting (avoid backlighting)
     - Ask participants to keep their head relatively still
-    - Use tasks that last at least 15-30 seconds
     - Test your calibration process first
     
     **For Better Studies:**
+
     - Keep tasks clear and specific
-    - Don't have too many tasks (3-5 is ideal)
+    - Don't have too many tasks
     - Pilot test with 2-3 people first
     - Provide clear instructions to participants
 
@@ -295,14 +262,6 @@ Now that you know the basics, level up:
     - **Too many browser tabs?** Close them for better performance
     - **Mobile devices?** Eye-tracking works best on desktop/laptop
 
-## 🆘 Need Help?
-
-Got stuck? We've got you covered:
-
-- 📖 Read the [detailed user guide](../user_guide/overview.md)
-- 🐛 Check [troubleshooting](../troubleshooting.md)
-- 💬 Ask questions on [GitHub Issues](https://github.com/justogm/RemoteGazeUX/issues)
-- 📧 Email: [justo.garcia@ingenieria.uner.edu.ar](mailto:justo.garcia@ingenieria.uner.edu.ar)
 
 ## 🎯 Challenge: Run a Real Study!
 
@@ -317,6 +276,6 @@ Share your results with the community — we'd love to see what you learn! 🌟
 
 ---
 
-**Feeling confident?** → [Learn about all features](../user_guide/overview.md)
+**Feeling confident?** → [Learn about all features](overview.md)
 
 **Want to go deeper?** → [Advanced configuration](configuration.md)
