@@ -1,9 +1,9 @@
 site_name: RemoteGazeUX
 site_description: Professional remote eye-tracking research with WebGazer.js - no lab, no hardware, no complexity!
 site_author: Justo Garcia
-site_url: https://github.com/justogm/RemoteGazeUX
-repo_url: https://github.com/justogm/RemoteGazeUX
-repo_name: justogm/RemoteGazeUX
+site_url: https://github.com/FIUNER-LICA/RemoteGazeUX
+repo_url: https://github.com/FIUNER-LICA/RemoteGazeUX
+repo_name: FIUNER-LICA/RemoteGazeUX
 edit_uri: edit/main/docs/docs/
 
 theme: 
@@ -98,7 +98,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/justogm/RemoteGazeUX
+      link: https://github.com/FIUNER-LICA/RemoteGazeUX
       name: RemoteGazeUX on GitHub
     - icon: fontawesome/solid/envelope
       link: mailto:justo.garcia@ingenieria.uner.edu.ar
@@ -121,7 +121,7 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help us improve by 
-            <a href="https://github.com/justogm/RemoteGazeUX/issues/new" target="_blank" rel="noopener">opening an issue</a>.
+            <a href="https://github.com/FIUNER-LICA/RemoteGazeUX/issues/new" target="_blank" rel="noopener">opening an issue</a>.
 
 extra_css:
   - stylesheets/extra.css
