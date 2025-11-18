@@ -146,25 +146,20 @@ Data is saved continuously.
 ### For Better Data Quality
 
 1. **Instruct participants:**
-
-   - Sit still
-   - Look naturally
-   - Don't overthink
-   - Be honest in responses
-
+    - Sit still
+    - Look naturally
+    - Don't overthink
+    - Be honest in responses
 2. **Environment setup:**
-
-   - Good lighting
-   - Quiet space
-   - No distractions
-   - Comfortable chair
-
+    - Good lighting
+    - Quiet space
+    - No distractions
+    - Comfortable chair
 3. **Task design:**
-
-   - Clear objectives
-   - Reasonable time limits
-   - Not too complex
-   - Natural scenarios
+    - Clear objectives
+    - Reasonable time limits
+    - Not too complex
+    - Natural scenarios
 
 ## 🔧 Technical Details
 
